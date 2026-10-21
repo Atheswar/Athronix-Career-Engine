@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #172033;
+}
+
+.navbar {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+    background: #0f172a;
+    color: white;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-links button,
+.hero button,
+.upload-box button {
+    border: none;
+    padding: 11px 18px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.nav-links button {
+    background: transparent;
+    color: white;
+}
+
+.hero {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 19px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background: #0f172a;
+    color: white;
+    font-size: 16px;
+}
+
+.dashboard {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.dashboard > h1 {
+    margin-bottom: 30px;
+}
+
+.upload-box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+
+.upload-box h2 {
+    margin-bottom: 10px;
+}
+
+.upload-box p {
+    margin-bottom: 20px;
+}
+
+.upload-box input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.upload-box button {
+    background: #0f172a;
+    color: white;
+}
+
+.results {
+    margin-top: 30px;
+}
+
+.resume-result {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.resume-result h2 {
+    margin-bottom: 15px;
+}
+
+.resume-result p {
+    margin-bottom: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.skill {
+    background: #e5e7eb;
+    padding: 6px 11px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.skill.matched {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.job-card {
+    background: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.job-header h3 {
+    margin-bottom: 8px;
+}
+
+.job-header p {
+    margin-bottom: 5px;
+}
+
+.job-card > p {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.match-score {
+    min-width: 110px;
+    text-align: center;
+    background: #eef2ff;
+    padding: 15px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.match-score span {
+    display: block;
+    font-size: 12px;
+}
+
+.match-score strong {
+    display: block;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+@media (max-width: 700px) {
+
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .dashboard {
+        margin: 20px auto;
+    }
+
+    .job-header {
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Java"
+    },
+    {
+        "name": "Python"
+    },
+    {
+        "name": "Spring Boot"
+    },
+    {
+        "name": "FastAPI"
+    },
+    {
+        "name": "React"
+    },
+    {
+        "name": "JavaScript"
+    },
+    {
+        "name": "HTML"
+    },
+    {
+        "name": "CSS"
+    },
+    {
+        "name": "SQL"
+    },
+    {
+        "name": "MySQL"
+    },
+    {
+        "name": "Git"
+    },
+    {
+        "name": "REST API"
+    },
+    {
+        "name": "Machine Learning"
+    },
+    {
+        "name": "Deep Learning"
+    },
+    {
+        "name": "NLP"
+    },
+    {
+        "name": "OpenCV"
+    },
+    {
+        "name": "Pandas"
+    },
+    {
+        "name": "NumPy"
+    },
+    {
+        "name": "Flask"
+    },
+    {
+        "name": "FastAPI"
+    },
+    {
+        "name": "Postman"
+    }
+]

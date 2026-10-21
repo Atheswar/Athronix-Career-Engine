@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "title": "Java Developer",
+        "company": "Tech Solutions",
+        "location": "Chennai",
+        "description": "Develop backend applications using Java and Spring Boot.",
+        "skills": [
+            "Java",
+            "Spring Boot",
+            "SQL",
+            "REST API",
+            "Git"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Python Developer",
+        "company": "AI Technologies",
+        "location": "Coimbatore",
+        "description": "Build Python-based backend and AI applications.",
+        "skills": [
+            "Python",
+            "FastAPI",
+            "SQL",
+            "Git",
+            "REST API"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Frontend Developer",
+        "company": "Web Works",
+        "location": "Remote",
+        "description": "Develop responsive web applications using React.",
+        "skills": [
+            "React",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Git"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "AI/ML Engineer",
+        "company": "Innovation Labs",
+        "location": "Bangalore",
+        "description": "Develop machine learning and AI applications.",
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "Pandas",
+            "NumPy",
+            "NLP"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Backend Developer",
+        "company": "Software Hub",
+        "location": "Salem",
+        "description": "Develop REST APIs and backend services.",
+        "skills": [
+            "Python",
+            "FastAPI",
+            "SQL",
+            "REST API",
+            "MySQL"
+        ]
+    }
+]
